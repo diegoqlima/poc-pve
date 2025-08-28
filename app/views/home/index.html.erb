@@ -1,0 +1,134 @@
+<rarui-theme-provider theme="base" data-controller="hello" data-hello-target="themeProvider">
+
+  <rarui-label html-for="authenticity_token">Token</rarui-label>
+  <rarui-input type="text" name="authenticity_token" id="authenticity_token" value="GALAO" appearance="error"></rarui-input>
+  <rarui-text color="$error">Acesso negado</rarui-text>
+
+  <rarui-box
+    background-color="$brand-subdued"
+    border-color="$brand"
+    border-radius="$xs"
+    border-width="$2"
+    line-height="base"
+    border-style="dashed">
+    <rarui-toggle size="large" error="false" disabled="false" id="toggle" data-action="toggle-change->hello#toggle">
+      <rarui-icon
+        slot="checked"
+        color="$primary"
+        name="lightbulb-filled"
+        size="small"
+      ></rarui-icon>
+      <rarui-icon
+        slot="unchecked"
+        color="$invert"
+        name="lightbulb-outlined"
+        size="small"
+      ></rarui-icon>
+    </rarui-toggle>
+
+    <rarui-button appearance="brand" variant="solid" size="medium">
+      Confirmar
+    </rarui-button>
+
+    <rarui-divider
+      direction="horizontal"
+      size="100%"
+      type="$solid"
+      thickness="$1"
+      color="$divider"
+    ></rarui-divider>
+    <rarui-avatar size="xLarge">
+      <rarui-text color="$primary">
+        RU
+        <rarui-badge slot="badge">Badge</rarui-badge>
+      </rarui-text>
+    </rarui-avatar>
+
+    <rarui-divider
+      direction="horizontal"
+      size="100%"
+      type="$solid"
+      thickness="$1"
+      color="$divider"
+    ></rarui-divider>
+    <rarui-avatar size="xLarge">
+      <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&amp;w=1974&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    </rarui-avatar>
+
+    <rarui-divider
+      direction="horizontal"
+      size="100%"
+      type="$solid"
+      thickness="$1"
+      color="$divider"
+    ></rarui-divider>
+    <rarui-badge appearance="brand" size="medium" variant="solid">
+      Badge
+    </rarui-badge>
+
+    <rarui-divider
+      direction="horizontal"
+      size="100%"
+      type="$solid"
+      thickness="$1"
+      color="$divider"
+    ></rarui-divider>
+    <rarui-banner appearance="brand" floating="false" closable="false">
+      <rarui-box
+        display="flex"
+        align-items="center"
+        justify-content="center"
+        gap="$4xs"
+        width="100%"
+        padding="$3xs"
+        box-sizing="border-box"
+      >
+        <rarui-icon name="sentiment-satisfied-filled" size="20"></rarui-icon>
+        <rarui-text color="$currentColor">Banner description with</rarui-text>
+        <rarui-link appearance="neutral" href="https://www.google.com.br">
+          link
+        </rarui-link>
+      </rarui-box>
+    </rarui-banner>
+
+    <rarui-divider
+      direction="horizontal"
+      size="100%"
+      type="$solid"
+      thickness="$1"
+      color="$divider"
+    ></rarui-divider>
+    <rarui-card padding="base" background-color="$primary">
+      <rarui-card-header
+        slot="header"
+        description="Description"
+        title="Title"
+      ></rarui-card-header>
+      <rarui-card-body slot="body" description="Description" title="Title">
+        <rarui-box
+          display="flex"
+          flex-direction="column"
+          align-items="center"
+          justify-content="center"
+          border-style="dashed"
+          border-width="$1"
+          border-color="$warning"
+          border-radius="$2xs"
+          gap="$3xs"
+          width="100%"
+          min-height="250px"
+          min-width="260px"
+          background-color="$warning-subdued"
+        >
+          <rarui-title as="h6" text-align="center" color="$warning">
+            ❖ Slot
+          </rarui-title>
+          <rarui-text fontsize="$s" text-align="center" color="$warning">
+            Substitua por Componente
+          </rarui-text>
+        </rarui-box>
+      </rarui-card-body>
+    </rarui-card>
+
+  </rarui-box>
+</rarui-theme-provider>
