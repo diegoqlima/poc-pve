@@ -165,10 +165,10 @@
   resolved "https://registry.yarnpkg.com/@rails/actioncable/-/actioncable-8.0.201.tgz#f5ac6bfa3ac6f52f8a1c37b2661b66a61d4442e4"
   integrity sha512-WiXZodvnK7u+wlu72DZydfV75x14HhzXI84sto9xcdsW1DMOHK+jYwQuuE/Wh/hKH5yajFIw/3DUP6MHDeGrbA==
 
-"@rarui/components@^1.19.0":
-  version "1.19.0"
-  resolved "https://registry.yarnpkg.com/@rarui/components/-/components-1.19.0.tgz#6bc699554c4de6b1088f2254acacf13854be6b3a"
-  integrity sha512-Z09M2qQjmMZdnhu+wS1elPL/slpJ4CurBR1tLL3eTOmVR1as/8ZOgxgxFFx5eKR/Kybie241Ptrxsm0ds8b+kQ==
+"@rarui/components@^1.20.0":
+  version "1.20.0"
+  resolved "https://registry.yarnpkg.com/@rarui/components/-/components-1.20.0.tgz#396f12d7df0de01456b8168789e8b3eb3f838707"
+  integrity sha512-4KzjIkohNeVBwzVngHM8IG3+x+Lct7K+A04lH3Hi5oVoTWtDKzuMUsVHC4VenqtJivo1tpfacxKFck0CE95xjw==
   dependencies:
     "@rarui/icons" "^1.2.0"
     "@rarui/styles" "^2.7.0"

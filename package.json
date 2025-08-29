@@ -10,6 +10,6 @@
   "dependencies": {
     "@hotwired/stimulus": "^3.2.2",
     "@hotwired/turbo-rails": "^8.0.16",
-    "@rarui/components": "^1.19.0"
+    "@rarui/components": "^1.20.0"
   }
 }
